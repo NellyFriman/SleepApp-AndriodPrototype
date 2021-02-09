@@ -2,7 +2,11 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
-
+android{
+    defaultConfig{
+        applicationId "com.example.sleep_app"
+    }
+}
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
