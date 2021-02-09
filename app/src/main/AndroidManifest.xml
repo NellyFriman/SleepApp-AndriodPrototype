@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sleepapp">
         <activity
+            android:name=".Questionnaire"
+            android:label="@string/title_activity_questionnaire"
+            android:theme="@style/Theme.Sleepapp.NoActionBar"></activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
