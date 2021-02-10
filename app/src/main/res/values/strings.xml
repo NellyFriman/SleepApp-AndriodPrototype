@@ -28,4 +28,7 @@
     <string name="cognitive_test">Cognitive Test</string>
     <string name="_3_min">3 min</string>
     <string name="did_you_feel_stressed_when_going_to_bed_yesterday">How stressed did you feel when you went to bed last night?</string>
+
+    <string name="Memory_description">In this test, you will see nine symbols displayed. Your task is to memorize the location of the symbols.</string>
+
 </resources>
