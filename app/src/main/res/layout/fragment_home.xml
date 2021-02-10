@@ -104,7 +104,7 @@
                 android:layout_marginLeft="26dp"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/oswald"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla risus proin congue rhoncus sapien orci."
+                android:text="@string/Memory_description"
                 android:textSize="17sp" />
         </RelativeLayout>
 
