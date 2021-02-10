@@ -15,4 +15,14 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="morning_questionnaire">Morning Questionnaire</string>
+    <string name="inte_alls">Inte alls</string>
+    <string name="lite">Lite</string>
+    <string name="n_got">Något</string>
+    <string name="ganska">Ganska</string>
+    <string name="mycket">Mycket</string>
+    <string name="save">Save</string>
+    <string name="feeling_when">Feeling when...</string>
+    <string name="going_to_bed">going to bed</string>
+    <string name="waking_up">waking up</string>
 </resources>
