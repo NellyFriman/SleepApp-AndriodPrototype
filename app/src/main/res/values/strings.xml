@@ -27,4 +27,5 @@
     <string name="waking_up">waking up</string>
     <string name="cognitive_test">Cognitive Test</string>
     <string name="_3_min">3 min</string>
+    <string name="did_you_feel_stressed_when_going_to_bed_yesterday">Did you feel stressed when going to bed yesterday?</string>
 </resources>
