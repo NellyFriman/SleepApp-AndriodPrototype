@@ -31,4 +31,7 @@
 
     <string name="Memory_description">In this test, you will see nine symbols displayed. Your task is to memorize the location of the symbols.</string>
 
+    <string name="App_info">This app is used in order to get user input from the participants in the research study performed "Sömn i vardagen" performed by Stockholm University.</string>
+    <string name="test_info">The app consists of a number of cognitive tests to be performed in the morning and before bedtime. These tests can be found on the home screen as well as notifications</string>
+
 </resources>
