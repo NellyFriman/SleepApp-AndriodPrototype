@@ -25,4 +25,6 @@
     <string name="feeling_when">Feeling when...</string>
     <string name="going_to_bed">going to bed</string>
     <string name="waking_up">waking up</string>
+    <string name="cognitive_test">Cognitive Test</string>
+    <string name="_3_min">3 min</string>
 </resources>

@@ -12,10 +12,11 @@
         <activity
             android:name=".Questionnaire"
             android:label="@string/title_activity_questionnaire"
-            android:theme="@style/Theme.Sleepapp.NoActionBar"></activity>
+            android:theme="@style/Theme.Sleepapp.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sleepapp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
