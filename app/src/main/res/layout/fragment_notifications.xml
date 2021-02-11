@@ -7,16 +7,58 @@
     tools:context=".ui.notifications.NotificationsFragment">
 
     <TextView
-        android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/purple_700"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Information" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="349dp"
+        android:layout_height="158dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/App_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="361dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/test_info"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/information"
+        tools:text="Welcome to the sleep app" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
