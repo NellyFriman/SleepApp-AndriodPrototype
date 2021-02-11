@@ -55,18 +55,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="265dp"
-        android:layout_height="75dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/Settings"
+        android:id="@+id/textSettings"
+        android:layout_width="262dp"
+        android:layout_height="69dp"
+        android:text="Settings"
         android:textColor="#000000"
         android:textSize="45sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -82,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textSettings" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -123,6 +124,29 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <TextView
+        android:id="@+id/textWeekends"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:text=" "
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textWeekdays" />
+
+    <TextView
+        android:id="@+id/textWeekdays"
+        android:layout_width="126dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="126dp"
         android:layout_height="31dp"
@@ -145,6 +169,18 @@
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <Button
+        android:id="@+id/buttonChangeHour"
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="96dp"
+        android:text="Change"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textWeekends"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <Button
         android:id="@+id/buttonchangePhone"
