@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sleepapp">
+        android:hardwareAccelerated="false"
+
         <activity
             android:name=".Questionnaire"
             android:label="@string/title_activity_questionnaire"
@@ -24,5 +26,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>
