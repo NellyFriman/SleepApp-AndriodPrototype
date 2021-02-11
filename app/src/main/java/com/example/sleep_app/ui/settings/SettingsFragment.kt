@@ -4,14 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.Button
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
+import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.ViewModelProvider
 import com.example.sleep_app.R
-import com.example.sleep_app.ui.settings.SettingsViewModel
 
-class SettingsFragment : Fragment() {
+@Suppress("DEPRECATION")
+class SettingsFragment : Fragment(), View.OnClickListener {
 
     private lateinit var settingsViewModel: SettingsViewModel
 
@@ -20,6 +20,8 @@ class SettingsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
         settingsViewModel =
             ViewModelProvider(this).get(SettingsViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_settings, container, false)
@@ -29,5 +31,17 @@ class SettingsFragment : Fragment() {
         })*/
 
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val buttChangeTime: Button = requireView().findViewById(R.id.buttonChangeTime) as Button
+        buttChangeTime.setOnClickListener(this)
+    }
+    override fun onClick(v: View?) {
+                val changetime: Fragment = changetimeFragment()
+        val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+        transaction.replace(R.id.nav_host_fragment,changetime)
+
     }
 }
