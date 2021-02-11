@@ -4,236 +4,227 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#405657"
     tools:context=".ui.settings.SettingsFragment">
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="59dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="16dp"
-        android:text="Email:"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="59dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="24dp"
-        android:text="Phone:"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:text="SMS"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:text="Email"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <TextView
-        android:id="@+id/textSettings"
-        android:layout_width="262dp"
-        android:layout_height="69dp"
-        android:text="Settings"
-        android:textColor="#000000"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="131dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="28dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sleep Schedule"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textSettings" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="129dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Notifications"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="178dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Personal Information "
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.103"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:text="Weekdays "
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-
-    <TextView
-        android:id="@+id/textWeekends"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:text=" "
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textWeekdays" />
-
-    <TextView
-        android:id="@+id/textWeekdays"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="126dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="12dp"
-        android:text="Weekends"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/buttonChangeEmail"
-        android:layout_width="98dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="16dp"
-        android:text="Change"
-        android:textSize="12sp"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
-
-    <Button
-        android:id="@+id/buttonChangeHour"
-        android:layout_width="98dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="96dp"
-        android:text="Change"
-        android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="@+id/textWeekends"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
-
-    <Button
-        android:id="@+id/buttonchangePhone"
-        android:layout_width="98dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="8dp"
-        android:text="Change"
-        android:textSize="12sp"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/buttonChangeEmail" />
-
-    <RadioGroup
-        android:layout_width="41dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginLeft="88dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2">
-
-        <RadioButton
-            android:id="@+id/radioButtonSMS"
-            android:layout_width="32dp"
-            android:layout_height="32dp" />
-
-        <RadioButton
-            android:id="@+id/radioButtonEmail"
-            android:layout_width="32dp"
-            android:layout_height="32dp" />
-    </RadioGroup>
-
-    <TextView
-        android:id="@+id/textemail"
-        android:layout_width="111dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="16dp"
-        android:text="email@gmail.com"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
-
-    <TextView
-        android:id="@+id/textPhone"
-        android:layout_width="86dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textemail"
-        tools:text="324567432" />
+        android:animateLayoutChanges="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/cardLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="59dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="106dp"
+                android:text="@string/email"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="59dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="76dp"
+                android:text="Phone:"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="284dp"
+                android:text="SMS"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="249dp"
+                android:text="Email"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="265dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginBottom="515dp"
+                android:text="Settings"
+                android:textColor="#000000"
+                android:textSize="45sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="131dp"
+                android:layout_height="39dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="475dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="text"
+                android:text="Sleep Schedule"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="129dp"
+                android:layout_height="42dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="319dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Notifications" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="178dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="132dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Personal Information " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="445dp"
+                android:text="Weekdays "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="410dp"
+                android:text="Weekends"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/buttonChangeEmail"
+                android:layout_width="98dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="206dp"
+                android:layout_marginBottom="100dp"
+
+                android:text="Change"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonchangePhone"
+                android:layout_width="98dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="207dp"
+                android:layout_marginBottom="57dp"
+                android:text="Change"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textemail"
+                android:layout_width="111dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="102dp"
+                android:text="email@gmail.com" />
+
+            <TextView
+                android:id="@+id/textPhone"
+                android:layout_width="86dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginBottom="74dp"
+                tools:text="324567432" />
+
+            <RadioGroup
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="249dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

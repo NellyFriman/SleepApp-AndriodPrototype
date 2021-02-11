@@ -40,5 +40,6 @@
     <string name="_5_min">5 min</string>
     <string name="questionnaire">Questionnaire</string>
     <string name="memory">Memory</string>
+    <string name="email">Email:</string>
 
 </resources>
