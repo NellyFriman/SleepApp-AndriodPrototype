@@ -25,6 +25,7 @@ class Questionnaire : AppCompatActivity() {
 
             val selectedOption: Int = radioGroupStress!!.checkedRadioButtonId
 
+            finish()
         }
     }
 }
