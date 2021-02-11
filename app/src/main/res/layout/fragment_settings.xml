@@ -35,7 +35,8 @@
                 android:layout_height="20dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="22dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="106dp"
                 android:text="@string/email"
@@ -47,7 +48,8 @@
                 android:layout_height="20dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="23dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="76dp"
                 android:text="Phone:"
@@ -59,7 +61,8 @@
                 android:layout_height="31dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="24dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="284dp"
                 android:text="SMS"
@@ -71,9 +74,10 @@
                 android:layout_height="31dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="23dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginBottom="249dp"
+                android:layout_marginBottom="238dp"
                 android:text="Email"
                 android:textColor="#000000" />
 
@@ -90,8 +94,8 @@
                 android:textSize="45sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/editTextTextPersonName"
+            <TextView
+                android:id="@+id/textSchedule"
                 android:layout_width="131dp"
                 android:layout_height="39dp"
                 android:layout_alignParentStart="true"
@@ -103,10 +107,11 @@
                 android:ems="10"
                 android:inputType="text"
                 android:text="Sleep Schedule"
+                android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="18sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/editTextTextPersonName2"
                 android:layout_width="129dp"
                 android:layout_height="42dp"
@@ -117,9 +122,11 @@
                 android:layout_marginBottom="319dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Notifications" />
+                android:text="Notifications"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/editTextTextPersonName3"
                 android:layout_width="178dp"
                 android:layout_height="40dp"
@@ -130,7 +137,8 @@
                 android:layout_marginBottom="132dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Personal Information " />
+                android:text="Personal Information "
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -138,10 +146,32 @@
                 android:layout_height="31dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="27dp"
+                android:layout_marginStart="55dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginBottom="445dp"
+                android:layout_marginBottom="443dp"
                 android:text="Weekdays "
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textTimeweekdays"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="196dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="444dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textWeekends"
+                android:layout_width="126dp"
+                android:layout_height="31dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="405dp"
                 android:textColor="#000000" />
 
             <TextView
@@ -150,9 +180,10 @@
                 android:layout_height="31dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="27dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginBottom="410dp"
+                android:layout_marginBottom="406dp"
                 android:text="Weekends"
                 android:textColor="#000000" />
 
@@ -165,6 +196,19 @@
                 android:layout_marginStart="206dp"
                 android:layout_marginBottom="100dp"
 
+                android:text="Change"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/buttonChangeTime"
+                android:layout_width="98dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="207dp"
+                android:layout_marginLeft="207dp"
+
+                android:layout_marginBottom="370dp"
                 android:text="Change"
                 android:textSize="12sp" />
 
@@ -185,9 +229,9 @@
                 android:layout_height="24dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="100dp"
                 android:layout_marginTop="12dp"
-                android:layout_marginBottom="102dp"
+                android:layout_marginBottom="101dp"
                 android:text="email@gmail.com" />
 
             <TextView
@@ -196,7 +240,7 @@
                 android:layout_height="23dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="70dp"
+                android:layout_marginStart="102dp"
                 android:layout_marginTop="20dp"
 
                 android:layout_marginBottom="74dp"
@@ -207,9 +251,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="269dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginLeft="235dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="249dp"
+                android:layout_marginBottom="235dp"
                 android:orientation="vertical">
 
                 <RadioButton

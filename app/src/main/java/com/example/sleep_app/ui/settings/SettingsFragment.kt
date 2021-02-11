@@ -27,6 +27,7 @@ class SettingsFragment : Fragment() {
         settingsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })*/
+
         return root
     }
 }
