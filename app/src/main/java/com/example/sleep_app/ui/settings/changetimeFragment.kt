@@ -22,14 +22,39 @@ class changetimeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
 
-
-        return inflater.inflate(R.layout.fragment_changetime, container, false)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(changetime_model::class.java)
-        // TODO: Use the ViewModel
+        var root= inflater.inflate(R.layout.fragment_changetime, container, false)
+
+        val buttChangeTimeEnds: Button = root.findViewById(R.id.buttonChangeTimeEnds)
+        buttChangeTimeEnds.setOnClickListener {
+            val clocK: Fragment = clock()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.nav_host_fragment,clocK)
+            transaction.addToBackStack(null);
+            transaction.commit();
+
+        }
+        val buttChangeTimeDays: Button = root.findViewById(R.id.buttonChangeTimeDays)
+        buttChangeTimeDays.setOnClickListener {
+            val clocK: Fragment = clock()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.nav_host_fragment,clocK)
+            transaction.addToBackStack(null);
+            transaction.commit();
+
+        }
+        val buttConfirm: Button = root.findViewById(R.id.buttonConfirm2)
+        buttConfirm.setOnClickListener {
+            val settings: Fragment = SettingsFragment()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.nav_host_fragment,settings)
+            transaction.addToBackStack(null);
+            transaction.commit();
+
+        }
+        return root
     }
+
+
 
 }

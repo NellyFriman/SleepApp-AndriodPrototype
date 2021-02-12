@@ -29,7 +29,7 @@ class SettingsFragment : Fragment() {
         settingsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })*/
-        val buttChangeTime: Button = root.findViewById(R.id.buttonChangeTime)
+        val buttChangeTime: Button = root.findViewById(R.id.buttonChangeTimeEnds)
         buttChangeTime.setOnClickListener {
             val changetime: Fragment = changetimeFragment()
             val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
