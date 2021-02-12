@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.sleep_app.R
 
 @Suppress("DEPRECATION")
-class SettingsFragment : Fragment(), View.OnClickListener {
+class SettingsFragment : Fragment() {
 
     private lateinit var settingsViewModel: SettingsViewModel
 
@@ -29,19 +29,28 @@ class SettingsFragment : Fragment(), View.OnClickListener {
         settingsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })*/
+        val buttChangeTime: Button = root.findViewById(R.id.buttonChangeTime)
+        buttChangeTime.setOnClickListener {
+            val changetime: Fragment = changetimeFragment()
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.nav_host_fragment,changetime)
+            transaction.addToBackStack(null);
+            transaction.commit();
+
+        }
 
         return root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    /*override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val buttChangeTime: Button = requireView().findViewById(R.id.buttonChangeTime) as Button
         buttChangeTime.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
-                val changetime: Fragment = changetimeFragment()
+        val changetime: Fragment = changetimeFragment()
         val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
         transaction.replace(R.id.nav_host_fragment,changetime)
 
-    }
+    }*/
 }
