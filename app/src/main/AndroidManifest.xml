@@ -11,9 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sleepapp">
+        <activity android:name=".Recall"></activity>
+        <activity android:name=".Distraction" />
+        <activity android:name=".Encoding" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_login"/>
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".Questionnaire"
             android:label="@string/title_activity_questionnaire"
