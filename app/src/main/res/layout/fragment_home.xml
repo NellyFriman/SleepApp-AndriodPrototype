@@ -79,8 +79,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="26dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginBottom="44dp"
                 android:fontFamily="@font/oswald"
                 android:text="@string/questionnaireDescription"
                 android:textSize="17sp" />
@@ -128,8 +128,10 @@
                 android:id="@+id/timeLabel1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
+                android:layout_marginTop="6dp"
                 android:layout_marginEnd="19dp"
                 android:layout_marginBottom="125dp"
                 android:background="@drawable/rounded_corner"
@@ -161,7 +163,7 @@
                 android:layout_marginStart="26dp"
                 android:layout_marginBottom="20dp"
                 android:fontFamily="@font/oswald"
-                android:text="@string/Memory_description"
+                android:text="@string/Memory_description1"
                 android:textSize="17sp" />
         </RelativeLayout>
 
