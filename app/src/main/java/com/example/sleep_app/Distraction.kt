@@ -43,18 +43,12 @@ class Distraction : AppCompatActivity() {
             override fun onAnimationRepeat(animator: Animator) {}
         })
         animation.start()
-        //-----------------------------------
-
 
         val images = mutableListOf(
                 R.drawable.airplane,
                 R.drawable.boat
         )
 
-        images.shuffle()
-
-
-        val rand = Random()
         val letters: Array<ImageView?> = arrayOfNulls<ImageView>(45)
         letters[0] = findViewById(R.id.Letter1)
         letters[1] = findViewById(R.id.Letter2)
