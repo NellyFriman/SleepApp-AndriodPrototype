@@ -45,8 +45,8 @@ class Distraction : AppCompatActivity() {
         animation.start()
 
         val images = mutableListOf(
-                R.drawable.airplane,
-                R.drawable.boat
+                R.drawable.e,
+                R.drawable.f
         )
 
         val letters: Array<ImageView?> = arrayOfNulls<ImageView>(45)
