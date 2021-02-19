@@ -500,7 +500,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/oswald"
         android:gravity="center"
-        android:text="Memorize the location of all symbols"
+        android:text="Touch the F's!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
