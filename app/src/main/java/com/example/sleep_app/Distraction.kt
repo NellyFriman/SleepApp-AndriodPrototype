@@ -104,8 +104,18 @@ class Distraction : AppCompatActivity() {
 
 
         for (i in letters){
-            val usedSymbol = rand.nextInt(images.size)
-            i?.setImageResource(images[usedSymbol])
+            val chosenLetter = rollDie()
+            if (chosenLetter == true) {
+                i?.setImageResource(images[0])
+            }
+            else
+                i?.setImageResource(images[1])
         }
+    }
+
+    private fun rollDie(): Any {
+        val rand = Random()
+        var roll = rand.nextInt(100);
+        return roll < 70;
     }
 }
