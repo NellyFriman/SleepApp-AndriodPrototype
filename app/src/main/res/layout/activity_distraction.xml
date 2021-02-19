@@ -7,480 +7,480 @@
     tools:context=".Distraction">
 
     <ImageView
-        android:id="@+id/symbol50"
+        android:id="@+id/Letter41"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol52"
-        app:layout_constraintTop_toBottomOf="@+id/symbol45"
+        app:layout_constraintEnd_toStartOf="@+id/Letter42"
+        app:layout_constraintTop_toBottomOf="@+id/Letter36"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol52"
+        android:id="@+id/Letter42"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol54"
-        app:layout_constraintTop_toBottomOf="@+id/symbol34"
+        app:layout_constraintEnd_toStartOf="@+id/Letter43"
+        app:layout_constraintTop_toBottomOf="@+id/Letter37"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol53"
+        android:id="@+id/Letter45"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol20"
+        app:layout_constraintTop_toBottomOf="@+id/Letter40"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol54"
+        android:id="@+id/Letter43"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol51"
-        app:layout_constraintTop_toBottomOf="@+id/symbol35"
+        app:layout_constraintEnd_toStartOf="@+id/Letter44"
+        app:layout_constraintTop_toBottomOf="@+id/Letter38"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol51"
+        android:id="@+id/Letter44"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol53"
-        app:layout_constraintTop_toBottomOf="@+id/symbol19"
+        app:layout_constraintEnd_toStartOf="@+id/Letter45"
+        app:layout_constraintTop_toBottomOf="@+id/Letter39"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol45"
+        android:id="@+id/Letter36"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol34"
-        app:layout_constraintTop_toBottomOf="@+id/symbol46"
+        app:layout_constraintEnd_toStartOf="@+id/Letter37"
+        app:layout_constraintTop_toBottomOf="@+id/Letter31"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol42"
+        android:id="@+id/Letter16"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol12"
-        app:layout_constraintTop_toBottomOf="@+id/symbol49"
+        app:layout_constraintEnd_toStartOf="@+id/Letter17"
+        app:layout_constraintTop_toBottomOf="@+id/Letter11"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol43"
+        android:id="@+id/Letter1"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol33"
+        app:layout_constraintEnd_toStartOf="@+id/Letter2"
         app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol44"
+        android:id="@+id/Letter26"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol39"
-        app:layout_constraintTop_toBottomOf="@+id/symbol48"
+        app:layout_constraintEnd_toStartOf="@+id/Letter27"
+        app:layout_constraintTop_toBottomOf="@+id/Letter21"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol47"
+        android:id="@+id/Letter6"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol31"
-        app:layout_constraintTop_toBottomOf="@+id/symbol43"
+        app:layout_constraintEnd_toStartOf="@+id/Letter7"
+        app:layout_constraintTop_toBottomOf="@+id/Letter1"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol48"
+        android:id="@+id/Letter21"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol41"
-        app:layout_constraintTop_toBottomOf="@+id/symbol42"
+        app:layout_constraintEnd_toStartOf="@+id/Letter22"
+        app:layout_constraintTop_toBottomOf="@+id/Letter16"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol49"
+        android:id="@+id/Letter11"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol28"
-        app:layout_constraintTop_toBottomOf="@+id/symbol47"
+        app:layout_constraintEnd_toStartOf="@+id/Letter12"
+        app:layout_constraintTop_toBottomOf="@+id/Letter6"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol46"
+        android:id="@+id/Letter31"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol36"
-        app:layout_constraintTop_toBottomOf="@+id/symbol44"
+        app:layout_constraintEnd_toStartOf="@+id/Letter32"
+        app:layout_constraintTop_toBottomOf="@+id/Letter26"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol34"
+        android:id="@+id/Letter37"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol35"
-        app:layout_constraintTop_toBottomOf="@+id/symbol36"
+        app:layout_constraintEnd_toStartOf="@+id/Letter38"
+        app:layout_constraintTop_toBottomOf="@+id/Letter32"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol36"
+        android:id="@+id/Letter32"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol38"
-        app:layout_constraintTop_toBottomOf="@+id/symbol39"
+        app:layout_constraintEnd_toStartOf="@+id/Letter33"
+        app:layout_constraintTop_toBottomOf="@+id/Letter27"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol37"
+        android:id="@+id/Letter28"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol24"
-        app:layout_constraintTop_toBottomOf="@+id/symbol40"
+        app:layout_constraintEnd_toStartOf="@+id/Letter29"
+        app:layout_constraintTop_toBottomOf="@+id/Letter23"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol38"
+        android:id="@+id/Letter33"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol21"
-        app:layout_constraintTop_toBottomOf="@+id/symbol37"
+        app:layout_constraintEnd_toStartOf="@+id/Letter34"
+        app:layout_constraintTop_toBottomOf="@+id/Letter28"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol39"
+        android:id="@+id/Letter27"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol37"
-        app:layout_constraintTop_toBottomOf="@+id/symbol41"
+        app:layout_constraintEnd_toStartOf="@+id/Letter28"
+        app:layout_constraintTop_toBottomOf="@+id/Letter22"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol40"
+        android:id="@+id/Letter23"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol26"
-        app:layout_constraintTop_toBottomOf="@+id/symbol27"
+        app:layout_constraintEnd_toStartOf="@+id/Letter24"
+        app:layout_constraintTop_toBottomOf="@+id/Letter18"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol41"
+        android:id="@+id/Letter22"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol40"
-        app:layout_constraintTop_toBottomOf="@+id/symbol12"
+        app:layout_constraintEnd_toStartOf="@+id/Letter23"
+        app:layout_constraintTop_toBottomOf="@+id/Letter17"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol35"
+        android:id="@+id/Letter38"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol19"
-        app:layout_constraintTop_toBottomOf="@+id/symbol38"
+        app:layout_constraintEnd_toStartOf="@+id/Letter39"
+        app:layout_constraintTop_toBottomOf="@+id/Letter33"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol12"
+        android:id="@+id/Letter17"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol27"
-        app:layout_constraintTop_toBottomOf="@+id/symbol28"
+        app:layout_constraintEnd_toStartOf="@+id/Letter18"
+        app:layout_constraintTop_toBottomOf="@+id/Letter12"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol28"
+        android:id="@+id/Letter12"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol30"
-        app:layout_constraintTop_toBottomOf="@+id/symbol31"
+        app:layout_constraintEnd_toStartOf="@+id/Letter13"
+        app:layout_constraintTop_toBottomOf="@+id/Letter7"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol29"
+        android:id="@+id/Letter8"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol5"
-        app:layout_constraintTop_toBottomOf="@+id/symbol32"
+        app:layout_constraintEnd_toStartOf="@+id/Letter9"
+        app:layout_constraintTop_toBottomOf="@+id/Letter3"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol30"
+        android:id="@+id/Letter13"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol8"
-        app:layout_constraintTop_toBottomOf="@+id/symbol29"
+        app:layout_constraintEnd_toStartOf="@+id/Letter14"
+        app:layout_constraintTop_toBottomOf="@+id/Letter8"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol31"
+        android:id="@+id/Letter7"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol29"
-        app:layout_constraintTop_toBottomOf="@+id/symbol33"
+        app:layout_constraintEnd_toStartOf="@+id/Letter8"
+        app:layout_constraintTop_toBottomOf="@+id/Letter2"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol32"
+        android:id="@+id/Letter3"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol2"
+        app:layout_constraintEnd_toStartOf="@+id/Letter4"
         app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol33"
+        android:id="@+id/Letter2"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol32"
+        app:layout_constraintEnd_toStartOf="@+id/Letter3"
         app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol27"
+        android:id="@+id/Letter18"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol10"
-        app:layout_constraintTop_toBottomOf="@+id/symbol30"
+        app:layout_constraintEnd_toStartOf="@+id/Letter19"
+        app:layout_constraintTop_toBottomOf="@+id/Letter13"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol19"
+        android:id="@+id/Letter39"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol20"
-        app:layout_constraintTop_toBottomOf="@+id/symbol21"
+        app:layout_constraintEnd_toStartOf="@+id/Letter40"
+        app:layout_constraintTop_toBottomOf="@+id/Letter34"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol21"
+        android:id="@+id/Letter34"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol23"
-        app:layout_constraintTop_toBottomOf="@+id/symbol24"
+        app:layout_constraintEnd_toStartOf="@+id/Letter35"
+        app:layout_constraintTop_toBottomOf="@+id/Letter29"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol22"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol25"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/symbol23"
+        android:id="@+id/Letter30"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol22"
+        app:layout_constraintTop_toBottomOf="@+id/Letter25"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol24"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol22"
-        app:layout_constraintTop_toBottomOf="@+id/symbol26"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/symbol25"
+        android:id="@+id/Letter35"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol11"
+        app:layout_constraintTop_toBottomOf="@+id/Letter30"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol26"
+        android:id="@+id/Letter29"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol25"
-        app:layout_constraintTop_toBottomOf="@+id/symbol10"
+        app:layout_constraintEnd_toStartOf="@+id/Letter30"
+        app:layout_constraintTop_toBottomOf="@+id/Letter24"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol20"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol23"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/symbol11"
+        android:id="@+id/Letter25"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol9"
+        app:layout_constraintTop_toBottomOf="@+id/Letter20"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol10"
+        android:id="@+id/Letter24"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol11"
-        app:layout_constraintTop_toBottomOf="@+id/symbol8"
+        app:layout_constraintEnd_toStartOf="@+id/Letter25"
+        app:layout_constraintTop_toBottomOf="@+id/Letter19"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol9"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol6"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/symbol8"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol9"
-        app:layout_constraintTop_toBottomOf="@+id/symbol5"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/symbol6"
+        android:id="@+id/Letter40"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/symbol3"
+        app:layout_constraintTop_toBottomOf="@+id/Letter35"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol5"
+        android:id="@+id/Letter20"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol6"
-        app:layout_constraintTop_toBottomOf="@+id/symbol2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Letter15"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol3"
+        android:id="@+id/Letter19"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/Letter20"
+        app:layout_constraintTop_toBottomOf="@+id/Letter14"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/Letter15"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Letter10"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/Letter14"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/Letter15"
+        app:layout_constraintTop_toBottomOf="@+id/Letter9"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/Letter10"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Letter5"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/Letter9"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/Letter10"
+        app:layout_constraintTop_toBottomOf="@+id/Letter4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/Letter5"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
@@ -511,13 +511,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/symbol2"
+        android:id="@+id/Letter4"
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/symbol3"
+        app:layout_constraintEnd_toStartOf="@+id/Letter5"
         app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 

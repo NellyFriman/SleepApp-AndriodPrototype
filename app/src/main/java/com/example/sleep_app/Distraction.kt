@@ -9,7 +9,6 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
-import com.example.sleep_app.R
 
 import java.util.*
 
@@ -57,18 +56,18 @@ class Distraction : AppCompatActivity() {
 
         val rand = Random()
         val symbols: Array<ImageView?> = arrayOfNulls<ImageView>(12)
-        symbols[0] = findViewById(R.id.symbol1)
-        symbols[1] = findViewById(R.id.symbol2)
-        symbols[2] = findViewById(R.id.symbol3)
+        symbols[0] = findViewById(R.id.Letter1)
+        symbols[1] = findViewById(R.id.Letter4)
+        symbols[2] = findViewById(R.id.Letter5)
         symbols[3] = findViewById(R.id.symbol4)
-        symbols[4] = findViewById(R.id.symbol5)
-        symbols[5] = findViewById(R.id.symbol6)
+        symbols[4] = findViewById(R.id.Letter9)
+        symbols[5] = findViewById(R.id.Letter10)
         symbols[6] = findViewById(R.id.symbol7)
-        symbols[7] = findViewById(R.id.symbol8)
-        symbols[8] = findViewById(R.id.symbol9)
-        symbols[9] = findViewById(R.id.symbol10)
-        symbols[10] = findViewById(R.id.symbol11)
-        symbols[11] = findViewById(R.id.symbol12)
+        symbols[7] = findViewById(R.id.Letter14)
+        symbols[8] = findViewById(R.id.Letter15)
+        symbols[9] = findViewById(R.id.Letter19)
+        symbols[10] = findViewById(R.id.Letter20)
+        symbols[11] = findViewById(R.id.Letter17)
 
         for (i in symbols){
             val usedSymbol = rand.nextInt(images.size)
