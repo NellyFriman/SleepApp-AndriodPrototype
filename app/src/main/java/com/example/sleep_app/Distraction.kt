@@ -56,7 +56,7 @@ class Distraction : AppCompatActivity() {
 
 
         val rand = Random()
-        val symbols: Array<ImageView?> = arrayOfNulls<ImageView>(9)
+        val symbols: Array<ImageView?> = arrayOfNulls<ImageView>(12)
         symbols[0] = findViewById(R.id.symbol1)
         symbols[1] = findViewById(R.id.symbol2)
         symbols[2] = findViewById(R.id.symbol3)
@@ -66,10 +66,13 @@ class Distraction : AppCompatActivity() {
         symbols[6] = findViewById(R.id.symbol7)
         symbols[7] = findViewById(R.id.symbol8)
         symbols[8] = findViewById(R.id.symbol9)
+        symbols[9] = findViewById(R.id.symbol10)
+        symbols[10] = findViewById(R.id.symbol11)
+        symbols[11] = findViewById(R.id.symbol12)
+
         for (i in symbols){
             val usedSymbol = rand.nextInt(images.size)
             i?.setImageResource(images[usedSymbol])
         }
-
     }
 }

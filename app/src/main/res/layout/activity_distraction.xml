@@ -29,7 +29,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/symbol"
+        android:id="@+id/symbol12"
         android:layout_width="104dp"
         android:layout_height="108dp"
         android:layout_marginTop="52dp"
