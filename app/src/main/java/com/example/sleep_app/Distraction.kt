@@ -4,6 +4,7 @@ import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
@@ -102,10 +103,21 @@ class Distraction : AppCompatActivity() {
             if (chosenLetter == true) {
                 i?.setImageResource(images[0])
             }
-            else
+            else {
                 i?.setImageResource(images[1])
+                i?.tag = "F"
+            }
+        }
+        for (i in letters){
+            i?.setOnClickListener{
+                if(i.tag == "F")
+                    i.setVisibility(View.INVISIBLE)
+
+            }
         }
     }
+
+
 
     private fun rollDie(): Any {
         val rand = Random()
