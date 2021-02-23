@@ -73,11 +73,11 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/recallInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/encodingInstructions"
+        android:id="@+id/recallInstructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -102,7 +102,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/recallInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -112,7 +112,7 @@
         android:layout_marginTop="48dp"
         android:layout_marginEnd="33dp"
         app:layout_constraintEnd_toStartOf="@+id/symbol3"
-        app:layout_constraintTop_toBottomOf="@+id/encodingInstructions"
+        app:layout_constraintTop_toBottomOf="@+id/recallInstructions"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ProgressBar
@@ -123,5 +123,5 @@
         android:layout_marginTop="7dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/encodingInstructions" />
+        app:layout_constraintTop_toBottomOf="@+id/recallInstructions" />
 </androidx.constraintlayout.widget.ConstraintLayout>

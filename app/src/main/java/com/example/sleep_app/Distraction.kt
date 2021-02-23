@@ -35,7 +35,7 @@ class Distraction : AppCompatActivity() {
 
             //changes activity after 10 seconds
             override fun onAnimationEnd(animator: Animator) {
-                val i = Intent(null, Recall::class.java)
+                val i = Intent(this@Distraction, Recall::class.java)
                 startActivity(i)
                 finish()
             }
