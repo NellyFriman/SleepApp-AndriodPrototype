@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.sleep_app.R
 
 import java.util.*
+import kotlin.collections.ArrayList
 
 
 class Encoding : AppCompatActivity() {
@@ -23,6 +24,10 @@ class Encoding : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         );
         setContentView(R.layout.activity_encoding)
+
+        val sharedPreferences = getSharedPreferences("shared preferences", MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        val usedSymbols = arrayListOf<Int>()
 
         //----------TIMER-------------
         //changes activity after 10 seconds
@@ -36,6 +41,7 @@ class Encoding : AppCompatActivity() {
             //changes activity after 10 seconds
             override fun onAnimationEnd(animator: Animator) {
                 val i = Intent(this@Encoding, Distraction::class.java)
+                i.putExtra("SymbolList", usedSymbols)
                 startActivity(i)
                 finish()
             }
@@ -78,11 +84,27 @@ class Encoding : AppCompatActivity() {
         symbols[6] = findViewById(R.id.symbol7)
         symbols[7] = findViewById(R.id.symbol8)
         symbols[8] = findViewById(R.id.symbol9)
-        for (i in symbols){
-            val usedSymbol = rand.nextInt(images.size)
-            i?.setImageResource(images[usedSymbol])
-            images.removeAt(usedSymbol)
+
+        val list = (0 until 17).toMutableList()
+        val randList = mutableListOf<Int>()
+
+        for (i in 0 until 9) {
+            val uniqueRand = list.random()
+            randList.add(uniqueRand)
+            list.remove(uniqueRand)
         }
+
+        var counter = 0
+        for (i in symbols){
+            val pickedSymbol = randList[counter]
+            i?.setImageResource(images[pickedSymbol])
+            usedSymbols.add(pickedSymbol)
+            counter++
+        }
+
+
+
+
 
     }
 }

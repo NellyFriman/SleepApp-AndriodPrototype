@@ -24,6 +24,9 @@ class Distraction : AppCompatActivity() {
         );
         setContentView(R.layout.activity_distraction)
 
+        val i = intent
+        val usedSymbols1: ArrayList<Int>? = i.extras?.getIntegerArrayList("SymbolList")
+
         //----------TIMER-------------
         //changes activity after 10 seconds
         val pb: ProgressBar = findViewById(R.id.progressBar)
@@ -36,6 +39,7 @@ class Distraction : AppCompatActivity() {
             //changes activity after 10 seconds
             override fun onAnimationEnd(animator: Animator) {
                 val i = Intent(this@Distraction, Recall::class.java)
+                i.putExtra("SymbolList", usedSymbols1)
                 startActivity(i)
                 finish()
             }
@@ -44,6 +48,8 @@ class Distraction : AppCompatActivity() {
             override fun onAnimationRepeat(animator: Animator) {}
         })
         animation.start()
+
+
 
         val images = mutableListOf(
                 R.drawable.e,
