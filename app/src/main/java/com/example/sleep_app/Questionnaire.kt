@@ -63,7 +63,7 @@ class Questionnaire : AppCompatActivity() {
             editor.putBoolean("exertionOption3", exertionBtn3.isChecked)
             editor.putBoolean("exertionOption4", exertionBtn4.isChecked)
             editor.putBoolean("exertionOption5", exertionBtn5.isChecked)
-
+            editor.apply()
             finish()
         }
     }
