@@ -25,6 +25,7 @@
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toStartOf="@+id/symbol6"
         app:layout_constraintTop_toBottomOf="@+id/symbol2"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -35,6 +36,7 @@
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toStartOf="@+id/symbol3"
         app:layout_constraintTop_toBottomOf="@+id/symbolToGuess"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -45,6 +47,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbolToGuess"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -55,6 +58,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbol3"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -65,6 +69,7 @@
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbol1"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -75,6 +80,7 @@
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbol4"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -85,6 +91,7 @@
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toStartOf="@+id/symbol9"
         app:layout_constraintTop_toBottomOf="@+id/symbol5"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -95,6 +102,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbol6"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
@@ -105,6 +113,7 @@
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/symbolToGuess"
+        app:srcCompat="@android:color/darker_gray"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView

@@ -3,16 +3,22 @@ package com.example.sleep_app
 import android.animation.Animator
 import android.animation.ObjectAnimator
 import android.content.Intent
+import android.media.AudioManager
+import android.media.ToneGenerator
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
 import android.widget.ProgressBar
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
+
 class Recall : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        var success = false
         super.onCreate(savedInstanceState)
         getWindow().setFlags(
                 WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -24,13 +30,16 @@ class Recall : AppCompatActivity() {
         //changes activity after 10 seconds
         val pb: ProgressBar = findViewById(R.id.progressBar)
         val animation = ObjectAnimator.ofInt(pb, "progress", 0, 100)
-        animation.duration = 10000
+        animation.duration = 15000
         animation.interpolator = DecelerateInterpolator()
         animation.addListener(object : Animator.AnimatorListener {
             override fun onAnimationStart(animator: Animator) {}
 
-            //changes activity after 10 seconds
+            //changes activity after 15 seconds
             override fun onAnimationEnd(animator: Animator) {
+
+                if(!success){ToneGenerator(AudioManager.STREAM_RING, 100).startTone(ToneGenerator.TONE_PROP_BEEP, 1000)}
+
                 val i = Intent(this@Recall, MainActivity::class.java)
                 startActivity(i)
                 finish()
@@ -78,12 +87,22 @@ class Recall : AppCompatActivity() {
         symbols[8] = findViewById(R.id.symbol9)
 
 
-        var counter = 0
+        /*
         for (i in symbols){
             i?.setImageResource(images[usedSymbols1!!?.get(counter)])
             counter++
+        }*/
+
+        val  guessImageView : ImageView =  findViewById(R.id.symbolToGuess)
+        val guessImage = images[usedSymbols1?.random()!!]
+        guessImageView.setImageResource(guessImage)
+        for ((counter, i) in symbols.withIndex()){
+           if(guessImage==images[usedSymbols1!!?.get(counter)]) {
+                success = true
+                i?.setOnClickListener {
+                    i?.setImageResource(images[usedSymbols1!!?.get(counter)])
+                }
+  }
         }
-
-
     }
 }
