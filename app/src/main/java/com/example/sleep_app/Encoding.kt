@@ -9,6 +9,8 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
+import com.google.gson.*
+import androidx.fragment.app.FragmentActivity
 import com.example.sleep_app.R
 
 import java.util.*
@@ -20,8 +22,8 @@ class Encoding : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         getWindow().setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
+                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN
         );
         setContentView(R.layout.activity_encoding)
 
@@ -42,6 +44,12 @@ class Encoding : AppCompatActivity() {
             override fun onAnimationEnd(animator: Animator) {
                 val i = Intent(this@Encoding, Distraction::class.java)
                 i.putExtra("SymbolList", usedSymbols)
+
+                val gson = Gson()
+                val json: String = gson.toJson(usedSymbols)
+                editor.putString("symbolPositioning", json)
+                editor.apply()
+
                 startActivity(i)
                 finish()
             }
@@ -54,23 +62,23 @@ class Encoding : AppCompatActivity() {
 
 
         val images = mutableListOf(
-            R.drawable.airplane,
-            R.drawable.boat,
-            R.drawable.bolt,
-            R.drawable.build,
-            R.drawable.bus,
-            R.drawable.cloud,
-            R.drawable.delete,
-            R.drawable.eco,
-            R.drawable.female,
-            R.drawable.fitness,
-            R.drawable.heart,
-            R.drawable.home,
-            R.drawable.lightbulb,
-            R.drawable.lock,
-            R.drawable.male,
-            R.drawable.paw,
-            R.drawable.star
+                R.drawable.airplane,
+                R.drawable.boat,
+                R.drawable.bolt,
+                R.drawable.build,
+                R.drawable.bus,
+                R.drawable.cloud,
+                R.drawable.delete,
+                R.drawable.eco,
+                R.drawable.female,
+                R.drawable.fitness,
+                R.drawable.heart,
+                R.drawable.home,
+                R.drawable.lightbulb,
+                R.drawable.lock,
+                R.drawable.male,
+                R.drawable.paw,
+                R.drawable.star
         )
 
         val rand = Random()
